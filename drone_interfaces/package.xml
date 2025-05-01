@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>drone_interfaces</name>
+  <version>0.0.0</version>
+  <description>The drone_interfaces package</description>
+  <maintainer email="meja@todo.todo">meja</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+
+  <!-- rosidl_interface_packages 그룹 추가 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>ament_cmake</build_depend>
+</package>
+

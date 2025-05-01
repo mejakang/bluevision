@@ -1,0 +1,11 @@
+# Goal: 목적지 위치와 회전 정보
+geometry_msgs/PoseStamped target_pose
+
+---
+# Result: 성공 여부와 메시지
+bool success
+string message
+
+---
+# Feedback: 진행 상황
+string current_status
