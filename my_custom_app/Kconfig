@@ -1,0 +1,5 @@
+menuconfig EXAMPLES_MY_CUSTOM_APP
+    bool "my_custom_app"
+    default y
+    ---help---
+      Enable support for my_custom_app
